@@ -1,0 +1,101 @@
+img{
+    width: 150px;
+   float: left;
+  
+}
+#addLivro{
+    margin: 5px;
+    text-align: center;
+    border: ridge 5px;
+    width: 400px;
+    display: inline-block;
+    font-size: x-large;
+    overflow: hidden;
+}
+form{
+    text-align: right;
+    padding-right: 25%;
+}
+
+
+body{
+    font-size: large;
+  align-content: center;
+	
+}
+button{
+    background-color:#4c0082d2;
+    color: white;
+    border: none; 
+    border-radius: 6px;
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    
+}
+.livros{
+    height:500px;
+    width:450px ;
+    float: left;
+    margin: 12px;
+    border: 2px ridge; 
+    border-radius: 5px;
+}
+
+#estante{
+    height:100%;
+}
+input{
+    padding: 5px;
+}
+
+.acao,a{
+    background-color: #4B0082;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    width: 100%;
+    
+}
+.descri{
+    width: 450px;
+    height: 150px;
+    overflow: visible;
+
+}
+.livrosini{
+    height:200px;
+    width:150px ;
+    float: left;
+    margin: 12px;
+    border: 2px ridge; 
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.novu{
+    width: 50%;
+    float:left;
+}
+.btn{
+    width: 100%;
+    background-color:#4B0082;
+    color: white;
+    border-radius: 6px;
+}
+footer{
+  position: static;
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color:#4B0082;
+    color:white;
+    padding: 15px;
+    border-radius: 8px
+}
+

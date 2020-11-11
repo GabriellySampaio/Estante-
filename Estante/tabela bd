@@ -1,0 +1,16 @@
+Create table Livros(
+id int AUTO_INCREMENT,
+nome varchar(50) NOT null,
+autor varchar(30) NOT null,
+edicao varchar(10) NOT null,
+descricao varchar(500) NOT null,
+possessao varchar(10) NOT null,
+situacao varchar(10) NOT null,
+foto varchar(200)NOT null,
+editora varchar(30) NOT null,
+PRIMARY KEY(id)
+);
+INSERT INTO Livros (nome, autor,edicao,descricao,possessao,situacao,foto,editora) VALUES ('Anne de green gables', 'Lucy M. Montgomery', '4°','Anne é uma garota órfã que, por engano, é adotada pelos irmãos Marilla e Matthew, de Green Gables. Eles pretendiam adotar um garoto para ajudar nas tarefas da fazenda, mas Anne veio no lugar; com um pouco de relutância por causa da personalidade e da energia da menina, eles acabam por dar-lhe um lar - e, tal como muda suas vidas, transforma a de Anne completamente.','Tenho','Lido','https://d26lpennugtm8s.cloudfront.net/stores/001/120/042/products/capa_anne_greengables1-5386610332ddb6ee0315846366638151-640-0.jpg','Pedra Azul');
+
+INSERT INTO Livros (nome, autor,edicao,descricao,possessao,situacao,foto,editora) VALUES ('Anne de avonlea', 'Lucy M. Montgomery', '4°','Mesmo tão nova, Anne Shirley se torna a nova professora da escola rural. Ela ganha mais notoriedade na região ao participar ativamente no desenvolvimento da cidade. Anne continua a mesma de sempre, mas sua feminilidade crescente é o principal atrativo da sequência de Anne de Green Gables. Novos personagens surgem para iluminar ainda mais o mundo da nossa protagonista. O diálogo rico em expressões e questionamentos da ruiva está traduzido com excelência pela Pedrazul Editora..','Tenho','Lido','https://d26lpennugtm8s.cloudfront.net/stores/001/120/042/products/capa_anne_avonlea1-2aba2ced1d1ab09e3215846347418128-640-0.jpg','Pedra Azul');
+
